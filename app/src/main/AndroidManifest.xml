@@ -14,6 +14,28 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"></application>
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.login.LoginMain.LoginMainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.login.Login.LoginActivity"
+            android:label="LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.login.Register.RegisterActivity"
+            android:label="RegisterActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.login.ForgetPass.ForgetPassActivity"
+            android:label="ForgetPassActivity"
+            android:screenOrientation="portrait"/>
+    </application>
 
 </manifest>

@@ -89,5 +89,7 @@ dependencies {
         exclude module: 'support-v4'
     }
 
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha2'
+
     testCompile 'junit:junit:4.12'
 }

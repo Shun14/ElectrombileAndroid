@@ -1,4 +1,4 @@
-package com.xiaoantech.electrombile.event;
+package com.xiaoantech.electrombile.event.cmd;
 
 /**
  * Created by jk on 16-10-26.

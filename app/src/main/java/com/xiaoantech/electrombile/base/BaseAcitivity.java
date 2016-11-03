@@ -10,7 +10,7 @@ import android.support.v7.app.AppCompatActivity;
  * the base class of all activity
  */
 
-abstract class BaseAcitivity extends AppCompatActivity {
+public abstract class BaseAcitivity extends AppCompatActivity {
 
 
     protected abstract void initBefore();
